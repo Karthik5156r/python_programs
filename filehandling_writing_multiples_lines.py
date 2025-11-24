@@ -1,0 +1,6 @@
+f=open('data.txt','w+')
+f.write('apple\nbannana\ncherry')
+f.seek(0)
+d=f.read()
+print(d)
+f.close()
